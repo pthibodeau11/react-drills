@@ -54,7 +54,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <input onChange={e => this.handleChange(e.target.value)} type="text" />
+        <input onChange={e => this.handleChange(e.target.value)} type="text" />   // this is a comment
         <p>{this.state.message}</p>
       </div>
     );
